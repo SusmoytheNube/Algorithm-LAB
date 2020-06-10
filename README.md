@@ -1,2 +1,2 @@
 # Algorithm-LAB
-Codes for the algorithm using c/c++
+Codes for the algorithm lab using c/c++
