@@ -19,7 +19,7 @@ void bubbleSort(int array[], int n)
 
 int main() 
 { 
-	int i, array[] = {64, 34, 25, 12, 22, 11, 90}; 
+	int i, array[] = {12, 11, 13, 5, 6}; 
 	int n = sizeof(array)/sizeof(array[0]); 
 	bubbleSort(array, n); 
 	cout<<"Sorted array: "; 	 
