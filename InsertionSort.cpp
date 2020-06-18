@@ -26,7 +26,7 @@ int main()
 	insertionsort(array, n); 
 
 	for (i= 0;i < n;i++) 
-		cout << array[i] <<" ";  
+		cout <<array[i] <<" ";  
 
 	return 0; 
 } 
