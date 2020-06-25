@@ -20,7 +20,7 @@ void selectionsort(int array[], int n)
 int main() 
 { 
     int i; 
-	int array[] = {64, 25, 12, 22, 11}; 
+	int array[] = {12, 11, 13, 5, 6}; 
 	int n = sizeof(array)/sizeof(array[0]);
     
 	selectionsort(array, n); 
