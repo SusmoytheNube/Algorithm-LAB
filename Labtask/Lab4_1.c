@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
- int n,i,j,temp,sum=0;
+ int n,i,j, temp;
  printf("Enter Array Size : ");
  scanf("%d",&n);
  int a[n];
- printf("Enter Elements of Array : ");
+ printf("Enter Elements of Array : \n");
  for(i=0; i<n; i++)
  {
  scanf("%d",&a[i]);
@@ -22,11 +22,10 @@ int main()
  }
  }
  }
- printf("Ascending Order: ");
- for(i=0 ; i<n ; i++)
+ printf("Descending Order: ");
+ for(i= n-1 ; i>=0 ; i--)
  {
  printf("%d ",a[i]);
- sum=sum+a[i];
  }
- printf("\nSum = %d ",sum);
+ return 0;
 }

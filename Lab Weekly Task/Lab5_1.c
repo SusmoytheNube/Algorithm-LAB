@@ -5,7 +5,7 @@ int main()
  int a[100], n, i, j, position, swap, min_idx,temp;
  printf("Enter Number of Elements :");
  scanf("%d", &n);
- printf("Enter Numbers : \n");
+ printf("Enter Numbers of Array : ");
  for (i = 0; i < n; i++)
  {
  scanf("%d", &a[i]);

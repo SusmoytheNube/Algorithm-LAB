@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
- int n,i;
+ int n,i,sum = 0;
  printf("Enter Array Size : ");
  scanf("%d",&n);
  int a[n];
- printf("Enter Elements of Array : ");
+ printf("Enter Elements of Array : \n");
  for(i=0; i<n; i++)
  {
  scanf("%d",&a[i]);
@@ -26,7 +26,8 @@ int main()
  for(i=0; i<n; i++)
  {
  printf("%d ",a[i]);
+ sum= sum+ a[i];
  }
- printf("\nDifference btn max-min = %d",a[n-1] - a[0]);
+ printf("\nAvg = %.2lf",(double)sum/n);
  return 0;
 }

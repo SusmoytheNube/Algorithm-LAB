@@ -5,7 +5,7 @@ int main()
  printf("Enter Array Size : ");
  scanf("%d",&n);
  int a[n];
- printf("Enter Elements of Array : ");
+ printf("Enter Elements of Array : \n");
  for(i=0; i<n; i++)
  {
  scanf("%d",&a[i]);
@@ -29,4 +29,5 @@ int main()
  sum=sum+a[i];
  }
  printf("\nSum = %d ",sum);
+ return 0;
 }
